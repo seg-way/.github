@@ -1,4 +1,4 @@
-## seGateway - (Seriously Secure Streaming) Event Gateway 👋
+## seGateway - (Seriously Secure Streaming) Event Gateway or loveingly Segway
 
 seGateway is a serious, secure, sensible event gateway solution. What does that mean? Glad you asked
 
