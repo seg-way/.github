@@ -12,3 +12,9 @@ Segway is a serious, secure, sensible, solution event gateway. What does that me
 * Syslog-NG why, its fast, its flexible, its powerful, and we don't need to build yet another engine
 * Python our extensions to Syslog-NG are written in python when syslog-ng itself is not enough.
 
+## What are our projects
+
+* Sources - Gotta start with a source these connect to a source and bring in the data for processing, apply open telemetry ECS schema where we can.
+* Router or Log Path - apply enrichment over ecs schema for delivery.
+* Destination Startin with Crowdstrike LogsScale but extensible for others. Deliver the data fully prepared for consumption.
+* Implementation - Using Terraform and terragrunt provide ready to run implementations for the most common needs
